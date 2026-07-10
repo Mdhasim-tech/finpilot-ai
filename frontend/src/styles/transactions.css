@@ -1,0 +1,84 @@
+.transactions-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.add-btn{
+
+    padding:12px 20px;
+
+    border:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+.add-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.filter-bar{
+
+    display:flex;
+
+    gap:15px;
+
+    align-items:center;
+
+    margin:25px 0;
+
+    flex-wrap:wrap;
+
+}
+
+.filter-bar input,
+.filter-bar select{
+
+    padding:10px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    min-width:180px;
+
+}
+
+.filter-bar button{
+
+    padding:10px 16px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.filter-bar button:hover{
+
+    background:#1d4ed8;
+
+}

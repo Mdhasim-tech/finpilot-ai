@@ -1,0 +1,105 @@
+.transaction-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 25px;
+
+    background: white;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.transaction-table th,
+.transaction-table td {
+
+    padding: 16px;
+
+    text-align: left;
+
+    border-bottom: 1px solid #eee;
+
+}
+
+.transaction-table th {
+
+    background: #f8fafc;
+
+}
+
+.transaction-table tr:hover {
+
+    background: #f9fafb;
+
+}
+.edit-btn {
+
+    padding: 8px 14px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background: #2563eb;
+
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+}
+
+.edit-btn:hover {
+
+    background: #1d4ed8;
+
+}
+
+.income-badge {
+
+    color: #10b981;
+
+    font-weight: 600;
+
+}
+
+.expense-badge {
+
+    color: #ef4444;
+
+    font-weight: 600;
+
+}
+
+.delete-btn {
+
+    margin-left: 10px;
+
+    padding: 8px 14px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background: #ef4444;
+
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+}
+
+.delete-btn:hover {
+
+    background: #dc2626;
+
+}

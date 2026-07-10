@@ -1,0 +1,49 @@
+
+
+.dashboard {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.summary-grid {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.dashboard-row {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+.left-panel,
+.right-panel {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (max-width: 900px) {
+
+    .summary-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .dashboard-row {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}

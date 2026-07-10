@@ -1,0 +1,51 @@
+.recent-box{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+
+.recent-box h2{
+
+    margin-bottom:20px;
+
+}
+
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+
+th,
+td{
+
+    padding:14px;
+
+    text-align:left;
+
+}
+
+
+thead{
+
+    background:#f3f4f6;
+
+}
+
+
+tbody tr{
+
+    border-bottom:1px solid #eee;
+
+}
