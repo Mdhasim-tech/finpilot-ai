@@ -76,3 +76,32 @@ FinPilot AI is a full-stack personal finance management application built with t
 
 ```bash
 git clone https://github.com/Mdhasim-tech/finpilot-ai.git
+
+## Backend-
+cd backend
+npm install
+npm run dev
+
+## Frontend-
+cd frontend
+npm install
+npm start
+
+## Environment Variables
+PORT=5000
+
+MONGO_URI=
+
+JWT_SECRET=
+
+GROQ_API_KEY=
+
+## Future Improvements
+Pagination
+Export to PDF/Excel
+Budget Goals
+Email Reports
+Dark Mode
+AI Chat Assistant
+Recurring Transactions
+Mobile Responsive Improvements
