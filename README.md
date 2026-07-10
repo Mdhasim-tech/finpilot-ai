@@ -76,6 +76,7 @@ FinPilot AI is a full-stack personal finance management application built with t
 
 ```bash
 git clone https://github.com/Mdhasim-tech/finpilot-ai.git
+```
 
 ## Backend
 
