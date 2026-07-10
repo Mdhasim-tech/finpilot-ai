@@ -109,10 +109,11 @@ GROQ_API_KEY=
 ```bash
 Pagination
 Export to PDF/Excel
-```
 Budget Goals
 Email Reports
 Dark Mode
 AI Chat Assistant
 Recurring Transactions
 Mobile Responsive Improvements
+```
+
