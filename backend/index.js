@@ -17,9 +17,15 @@ app.use(express.json());
 app.use(cookieParser());
 
 
+// app.use(
+//     cors({
+//         origin: "http://localhost:3000",
+//         credentials: true,
+//     })
+// );
 app.use(
     cors({
-        origin: "http://localhost:3000",
+        origin: process.env.CLIENT_URL,
         credentials: true,
     })
 );
@@ -28,6 +34,11 @@ app.get("/", (req, res) => {
     res.json({
         success: true,
         message: "FinPilot API Running 🚀",
+    });
+});
+app.get("/health", (req, res) => {
+    res.status(200).json({
+        status: "OK"
     });
 });
 
